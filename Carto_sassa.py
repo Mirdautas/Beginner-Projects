@@ -148,5 +148,3 @@ def match():
   
 print("\n\n             WELCOME TO THE ARENA\n")
 match()
-    
-    #def play():
