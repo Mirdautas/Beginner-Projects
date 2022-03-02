@@ -17,7 +17,7 @@ def replay():
         print("\n")
         return(0)
 
-dice_list = ["\u001b[36mCube(6)\u001b[0m", "\u001b[32mOctahedron(8)\u001b[0m","\u001b[33mPentagonal(10)\u001b[0m","\u001b[31mIcosahedron(20)\u001b[0m"] 
+dice_list = ["\u001b[35mTetrahedron(4)\u001b[0m","\u001b[36mCube(6)\u001b[0m", "\u001b[32mOctahedron(8)\u001b[0m","\u001b[33mPentagonal(10)\u001b[0m","\u001b[34mDodecahedron(12)\u001b[0m","\u001b[31mIcosahedron(20)\u001b[0m", "\u001b[31;1mD%(100)\u001b[0m"]
 
 def display_dices():
     for index, types in enumerate(dice_list):
@@ -37,13 +37,19 @@ def valid_dice():
 
 def conversion(dadoscelto):
     if dadoscelto == 0:
-        dadoscelto = 6
+        dadoscelto = 4
     elif dadoscelto == 1:
-        dadoscelto = 8
+        dadoscelto = 6
     elif dadoscelto == 2:
-        dadoscelto = 10
+        dadoscelto = 8
     elif dadoscelto == 3:
         dadoscelto = 10
+    elif dadoscelto == 4:
+        dadoscelto = 12
+    elif dadoscelto == 5:
+        dadoscelto = 20
+    elif dadoscelto == 6:
+        dadoscelto = 100
     return(dadoscelto)
 
 def roll(min_num, max_num):
@@ -62,9 +68,10 @@ def multiple_dices():
 def play():
     
     dado = valid_dice()
-    while dado > 3:
+    while dado > 6:
         print("\n\u001b[41;1mERROR\u001b[0m: Not a dice on the list.\n")
         dado = valid_dice()
+    print(f"\n{dice_list[dado]} selected.\n")
     how_many = multiple_dices()
     while how_many == 0:
         print("\nCan't roll zero dices. Pick again.\n")
