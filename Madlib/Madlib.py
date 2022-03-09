@@ -43,12 +43,12 @@ def esecuzione():
         storia_random()   
     if modalità_scelta == "2":
         print("\n\u001b[34;1mComponi\u001b[0m selezionata:")
-        componi()   
+        componi()
+    replay()
 
 def init():
     print('''\n\t\t~~~~~~~    Benvenuti nel narrastorie!    ~~~~~~~\n
 Istruzioni:
 Scegli tra la modalità \u001b[35;1mStoriandom\u001b[0m e \u001b[34;1mComponi\u001b[0m, oppure Info, per avere più informazioni.\n(\u001b[33;1mexit\u001b[0m per uscire)''')
-    esecuzione()
-    replay()       
+    esecuzione()       
 init()

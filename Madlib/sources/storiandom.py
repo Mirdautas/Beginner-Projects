@@ -5,15 +5,15 @@ def name_story():
     Time = random.choice(["C'era un volta", "Molti anni or sono c'era", "In un antico Regno viveva", "In una Era ormai persa nel tempo, viveva", "Durante il tempo della magia runica e dei Draghi di Smeraldo, viveva","Nelle lande oltre i Monti del Sogno bruno, vi era"])
     Main_char = random.choice(["un Re", "un parroco di campagna", "un monaco","un cavaliere","Ludovico il Bardo, un uomo","un Barone", "un contadino"])
     Quality1 = random.choice(["altruista","irascibile", "gioviale", "buono", "gentile", "orgoglioso","severo","sempre sorridente", "stravagante"])
-    Quality2 = random.choice(["e taciturno.", "e loquace.", "e amante degli scherzi.", "e un imbattibile in battaglia.","e un fine stratega.","e molto saggio.","e riflessivo.", "e dal difficile temperamento."])
+    Quality2 = random.choice(["e taciturno.", "e loquace.", "e amante degli scherzi.", "e imbattibile in battaglia.","e stratega senza eguali.","e molto saggio.","e riflessivo.", "e dal difficile temperamento."])
     #"\n"
     Time_event = random.choice(["Un giorno decise","Una mattina decise","Una sera decise", "La prima Domenica di Fiordimaio decise","Appena terminata la guerra, decise","Avendo svolto tutte le faccende incombenti, decise"])
     Activity = random.choice(["di fare una passeggiata", "di partire per un viaggio", "di incamminarsi col suo cane", "di cercare un luogo per un picnic rilassante", "di andare all'osservatorio delle nuvole e stelle", "di andare a riflettere"])
     Activity_place = random.choice(["presso il Monte Susina.","al lago Burbussa.","verso il villaggio Coppolini.", "nella Foresta odorosa dei muschi.", "sui verdi prati dietro casa."])
     #"\nMentre andava, si accorse di "
-    Secondary_char = random.choice(["un signore", "un personaggio bizzarro", "un figuro", "un'ombra dall'aspetto", "un giovane"])
+    Secondary_char = random.choice(["un signore", "un bizzarro personaggio,", "un figuro", "un'ombra di aspetto", "un giovane"])
     Sec_char_aspect = random.choice(["stanco e sudato,", "pallido e curvo,", "proporzionato e muscoloso,","alto ed emaciato,","tarchiato e muscoloso,","alto e molto in carne,","bassino e dalla pancia prominente," ])
-    Sec_char_age = random.choice(["intorno alla cinquantina,","di 30 anni, o poco più,", "visibilmente avanti con l'età,","apparentemente molto giovane di età,"])
+    Sec_char_age = random.choice(["intorno alla cinquantina,","di 30 anni o poco più,", "visibilmente avanti con l'età,","apparentemente molto giovane di età,"])
     Sec_char_activity = random.choice(["intento a spaccare la legna.","davanti ad un fuocherello.", "che si dondolava comodamente su un'amaca.","intento a caricare la sua pipa all'ombra di un frassino.", "che coglieva bacche dagli arbusti vicini.", "tutto impegnato a tirar di spada contro nemici immaginari.", "che fischiettava allegramente.", "che chiedeve le elemosina."])
     #" e in lui subito riconobbe "
     Sec_char_past = random.choice(["il suo amico di infanzia perduto!", "il suo storico arcinemico!","il suo storico rivale in amore!", "il compagno di mille disaventure passate!","l'antipatico compagno di classe che sempre lo prendeva in giro!"])
